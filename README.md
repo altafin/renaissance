@@ -33,12 +33,16 @@ Gestão de estudantes de curso de idiomas
 ```
 
 ##ERROR: failed to solve: error getting credentials - err: exit status 1, out: “
+    
     Abra o terminal WSL2
+    
     sudo nano ~/.docker/config.json
+    
     Altere a chave: credsStore para credStore
+    
     CTRL+O e ENTER para salvar
+    
     CTRL+X para sair
-
 
 ## Tecnologias
 
