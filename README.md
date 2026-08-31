@@ -44,6 +44,15 @@ Gestão de estudantes de curso de idiomas
     
     CTRL+X para sair
 
+## Tests Pest
+    Configurar o arquivo phpunit.xml
+    <env name="APP_ENV" value="testing"/>
+    <env name="DB_CONNECTION" value="sqlite"/>
+    <env name="DB_DATABASE" value=":memory:"/>
+
+    Executar teste específico:
+    ./vendor/bin/sail artisan test tests/Feature/PersonTest.php
+
 ## Tecnologias
 
 |              |  versão   |
